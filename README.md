@@ -4,10 +4,8 @@ An expense tracker application to manage your finances. The application allow us
 ## Project URL
 https://roadmap.sh/projects/expense-tracker
 
-##
-To handle user input, i used picocli adding it as a source: https://picocli.info/
-
 # Documentation
+To handle user input, i used picocli, adding it as a source: https://picocli.info/
 
 ## How to run the app
 - to run the app from the command line, move to the expense-tracker/src folder, then run the command `javac -d "../bin" -cp ".:../lib/picocli-4.7.7.jar" ExpenseTracker.java` to compile the code, then, to run the app, you have to run the command `java -cp "../bin:../lib/picocli-4.7.7.jar" ExpenseTracker add` where the `...` stand for the command you want the app to execute, example: i want to add an expense with description "play car", and amount 20, i will run the following command: `java -cp "../bin:../lib/picocli-4.7.7.jar" ExpenseTracker add -d "play car" -a 20`
